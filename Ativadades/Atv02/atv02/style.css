@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #000080;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.comentario {
+    background-color: #000080;
+    border-radius: 20px;
+    width: 280px;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+} 
+
+header h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+article header h2 {
+    font-size: 22px;
+    color: #000080;
+}
+
+article header time {
+    font-size: 12px;
+    color: #fff;
+}
+
+section h3 {
+    color: #000080;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+article footer {
+    font-size: 12px;
+    color: #fff;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.comments {
+    margin-top: 30px;
+}
+
+.comments h2 {
+    font-size: 20px;
+    color: #000080;
+    margin-left: 10px;
+}
+
+.comment article {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.comment header p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.comment p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #000080;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+}

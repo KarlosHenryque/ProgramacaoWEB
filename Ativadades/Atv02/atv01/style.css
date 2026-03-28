@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 1, 94);
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    color: deepskyblue;
+}
+
+main {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+section h2 {
+    text-align: left;
+    color:rgb(10, 1, 94);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #333;
+}
+
+section ul li {
+    font-size: 20px;
+    color: #333;
+    list-style: none;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+section ul li:hover {
+    color: rgb(10, 1, 94);
+    font-weight: 500;
+}
+
+aside h3 {
+    text-align: left;
+    color:rgb(10, 1, 94);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+aside p {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #333;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: rgb(10, 1, 94);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer p:hover {
+    color: deepskyblue;
+    font-size: 20px;
+}

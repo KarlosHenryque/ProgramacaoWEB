@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout - Dribbble</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-esquerda">
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="Logo Dribbble" />
+      </div>
+      <div class="barra-busca">
+        <input type="text" placeholder="O que você está procurando?" />
+        <div class="tag-busca">
+          Shots
+          <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+        </div>
+        <button class="btn-busca">
+          <svg viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#">
+        Explorar
+        <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+      </a>
+      <a href="#">
+        Contratar Designer
+        <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+      </a>
+      <a href="#">Vagas</a>
+      <a href="#">Blog</a>
+    </nav>
+
+    <div class="header-direita">
+      <button class="btn-entrar">Entrar</button>
+      <button class="btn-criar">Criar conta</button>
+    </div>
+  </header>
+
+  <div class="barra-filtros">
+    <div class="filtros-esquerda">
+      <button class="btn-popular">
+        Popular
+        <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+      </button>
+    </div>
+
+    <div class="filtros-centro">
+      <button class="tag-filtro ativo">Descobrir</button>
+      <button class="tag-filtro">Animação</button>
+      <button class="tag-filtro">Branding</button>
+      <button class="tag-filtro">Ilustração</button>
+      <button class="tag-filtro">Mobile</button>
+      <button class="tag-filtro">Impressão</button>
+      <button class="tag-filtro">Design de Produto</button>
+      <button class="tag-filtro">Tipografia</button>
+      <button class="tag-filtro">Web Design</button>
+    </div>
+
+    <button class="btn-filtros">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+      Filtros
+    </button>
+  </div>
+
+  <main>
+    <div class="grade-cards">
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 1" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Um</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              90
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              13k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 2" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Dois</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              79
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              13k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 3" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Três</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              61
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              6.6k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 4" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Quatro</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              57
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              5.2k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 5" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Cinco</span>
+            <span class="badge team">TEAM</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              193
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              11k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 6" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Seis</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              55
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              4k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 7" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Sete</span>
+            <span class="badge team">TEAM</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              47
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              5.9k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 8" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Oito</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              44
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              4.1k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 9" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Nove</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              38
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              3.2k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 10" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Dez</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              52
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              7k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 11" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Onze</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              60
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              8.4k
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-imagem">
+          <img src="assets/images/img.webp" alt="Shot 12" />
+        </div>
+        <div class="card-rodape">
+          <div class="autor">
+            <div class="avatar"><img src="assets/images/perfil.webp" alt="Avatar" /></div>
+            <span class="nome-autor">Autor Doze</span>
+            <span class="badge">PRO</span>
+          </div>
+          <div class="stats">
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M12 21C12 21 3 13.5 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.5-9 13-9 13z"/></svg>
+              41
+            </span>
+            <span class="stat">
+              <svg viewBox="0 0 24 24"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              2.9k
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

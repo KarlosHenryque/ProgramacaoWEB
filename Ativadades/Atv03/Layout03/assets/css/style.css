@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  background: linear-gradient(160deg, #0d1117 0%, #1a1f6e 50%, #0d1117 100%);
+  color: #fff;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  height: 64px;
+}
+
+.cabecalho-esquerda {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo-site {
+  display: flex;
+  align-items: center;
+}
+
+.logo-imagem {
+  width: 36px;
+  height: 36px;
+}
+
+.menu-navegacao {
+  display: flex;
+  gap: 8px;
+}
+
+.menu-navegacao a {
+  padding: 6px 10px;
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.menu-navegacao a:hover {
+  background: #21262d;
+  color: #fff;
+}
+
+.cabecalho-direita {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.botao-busca {
+  width: 36px;
+  height: 36px;
+  background: #333;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.botao-entrar {
+  background: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.botao-criar-conta {
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 6px;
+  color: #fff;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.secao-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 40px;
+  min-height: auto;
+  gap: 28px;
+  background: linear-gradient(160deg, #0d1117 0%, #1a1f6e 50%, #0d1117 100%);
+}
+
+.titulo-principal {
+  font-size: 58px;
+  font-weight: bold;
+  max-width: 900px;
+}
+
+.subtitulo-principal {
+  font-size: 18px;
+  color: #aaa;
+  max-width: 540px;
+  line-height: 1.6;
+}
+
+.acoes-principais {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grupo-email {
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 52px;
+}
+
+.campo-email {
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  width: 220px;
+  color: #333;
+}
+
+.botao-cadastrar {
+  background: #238636;
+  color: #fff;
+  border: none;
+  padding: 0 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-copilot {
+  height: 52px;
+  padding: 0 24px;
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.botao-scroll {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  background: #333;
+  border: 1px solid #30363d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 25px;
+}
+
+.botao-scroll:hover {
+  background: #30363d;
+}

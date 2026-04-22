@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 body {
@@ -12,6 +11,7 @@ body {
   font-family: sans-serif;
   background: linear-gradient(160deg, #0d1117 0%, #1a1f6e 50%, #0d1117 100%);
   color: #fff;
+  border: 3px solid #ff4d4d;
 }
 
 .cabecalho {
@@ -20,17 +20,22 @@ body {
   align-items: center;
   padding: 16px 40px;
   height: 64px;
+  border: 2px solid #ffa94d;
 }
 
 .cabecalho-esquerda {
   display: flex;
   align-items: center;
   gap: 24px;
+  border: 2px dashed #4dabf7;
+  padding: 6px;
 }
 
 .logo-site {
   display: flex;
   align-items: center;
+  border: 2px dashed #9775fa;
+  padding: 4px;
 }
 
 .logo-imagem {
@@ -41,6 +46,8 @@ body {
 .menu-navegacao {
   display: flex;
   gap: 8px;
+  border: 2px dashed #69db7c;
+  padding: 6px;
 }
 
 .menu-navegacao a {
@@ -48,46 +55,46 @@ body {
   font-size: 14px;
   color: #ccc;
   text-decoration: none;
-  border-radius: 4px;
-  transition: 0.2s;
-}
-
-.menu-navegacao a:hover {
-  background: #21262d;
-  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .cabecalho-direita {
   display: flex;
   align-items: center;
   gap: 12px;
+  border: 2px dashed #f783ac;
+  padding: 6px;
+}
+
+.botao-busca,
+.botao-entrar,
+.botao-criar-conta {
+  border: 1px solid rgba(255,255,255,0.3);
 }
 
 .botao-busca {
   width: 36px;
   height: 36px;
   background: #333;
-  border: 1px solid #30363d;
   border-radius: 6px;
-  color: #ccc;
-  cursor: pointer;
 }
 
 .botao-entrar {
   background: transparent;
-  border: none;
   color: #ccc;
   font-size: 14px;
-  cursor: pointer;
+  padding: 4px 8px;
 }
 
 .botao-criar-conta {
   background: transparent;
-  border: 1px solid #555;
   border-radius: 6px;
   color: #fff;
   padding: 6px 16px;
-  cursor: pointer;
+}
+
+main {
+  border: 2px solid #ff6bcb;
 }
 
 .secao-principal {
@@ -96,15 +103,15 @@ body {
   align-items: center;
   text-align: center;
   padding: 80px 40px;
-  min-height: auto;
   gap: 28px;
-  background: linear-gradient(160deg, #0d1117 0%, #1a1f6e 50%, #0d1117 100%);
+  border: 2px solid #22b8cf;
 }
 
 .titulo-principal {
   font-size: 58px;
-  font-weight: bold;
   max-width: 900px;
+  border: 2px dashed #ff8787;
+  padding: 12px;
 }
 
 .subtitulo-principal {
@@ -112,6 +119,8 @@ body {
   color: #aaa;
   max-width: 540px;
   line-height: 1.6;
+  border: 2px dashed #74c0fc;
+  padding: 12px;
 }
 
 .acoes-principais {
@@ -119,6 +128,8 @@ body {
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
+  border: 2px dashed #8ce99a;
+  padding: 12px;
 }
 
 .grupo-email {
@@ -127,14 +138,15 @@ body {
   border-radius: 8px;
   overflow: hidden;
   height: 52px;
+  border: 2px solid #ffd43b;
 }
 
 .campo-email {
   border: none;
-  outline: none;
   padding: 0 16px;
   width: 220px;
   color: #333;
+  outline: none;
 }
 
 .botao-cadastrar {
@@ -142,18 +154,15 @@ body {
   color: #fff;
   border: none;
   padding: 0 24px;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .botao-copilot {
   height: 52px;
   padding: 0 24px;
   background: transparent;
-  border: 1px solid #555;
+  border: 2px solid rgba(255,255,255,0.4);
   border-radius: 8px;
   color: #fff;
-  cursor: pointer;
 }
 
 .botao-scroll {
@@ -163,16 +172,10 @@ body {
   width: 40px;
   height: 40px;
   background: #333;
-  border: 1px solid #30363d;
+  border: 2px solid #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  transition: 0.2s;
-  font-size: 25px;
-}
-
-.botao-scroll:hover {
-  background: #30363d;
+  font-size: 20px;
 }

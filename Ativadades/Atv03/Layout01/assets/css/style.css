@@ -15,12 +15,15 @@ header {
     align-items: center;
     padding: 20px 60px;
     background: white;
+    border: 2px solid red; 
 }
 
 .logo {
     display: flex;
     align-items: center;
     gap: 10px;
+    border: 2px dashed blue;
+    padding: 5px;
 }
 
 .logo img {
@@ -29,16 +32,19 @@ header {
 
 nav {
     display: flex;
-    align-items: right;
     gap: 25px;
     font-size: 14px;
     color: #333;
+    border: 2px dashed green;
+    padding: 5px;
 }
 
 .menu-direita {
     display: flex;
     align-items: center;
     gap: 20px;
+    border: 2px dashed purple;
+    padding: 5px;
 }
 
 .btn-comecar {
@@ -47,6 +53,7 @@ nav {
     padding: 10px 18px;
     border-radius: 10px;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 main {
@@ -55,31 +62,48 @@ main {
     justify-content: space-between;
     padding: 60px;
     background-color: #2B2929;
+    border: 2px solid orange;
 }
 
 .esquerda {
     max-width: 500px;
-   
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+.titulo-esquerda {
+    border: 2px dashed white;
+    margin-bottom: 10px;
 }
 
 .titulo-esquerda h2 {
     font-size: 40px;
-    margin-bottom: 20px;
     color: #ffffff;
+}
+
+.texto-esquerda {
+    border: 2px dashed lightblue;
+    margin-bottom: 10px;
 }
 
 .texto-esquerda p {
     font-size: 16px;
     color: #ffffff;
-    margin-bottom: 20px;
+}
+
+.link {
+    border: 2px dashed pink;
+    margin-bottom: 10px;
 }
 
 .link a {
     color: #ffffff;
-    display: inline-block;
-    margin-bottom: 20px;
 }
 
+.btn-esquerda {
+    border: 2px dashed cyan;
+    margin-bottom: 10px;
+}
 
 .btn-esquerda button {
     background: #0061ff;
@@ -89,7 +113,10 @@ main {
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
-    margin-bottom: 15px;
+}
+
+.secundo-link {
+    border: 2px dashed lime;
 }
 
 .secundo-link a {
@@ -99,7 +126,12 @@ main {
 }
 
 .direita {
-    position: relative;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.imagem-direita {
+    border: 2px dashed red;
 }
 
 .imagem-direita img {

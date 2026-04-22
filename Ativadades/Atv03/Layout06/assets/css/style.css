@@ -8,6 +8,7 @@ body {
   font-family: sans-serif;
   background: #fff;
   color: #222;
+  border: 3px solid red;
 }
 
 header {
@@ -18,30 +19,34 @@ header {
   height: 60px;
   border-bottom: 1px solid #e5e5e5;
   background: #fff;
+  border: 2px solid orange;
 }
 
 .header-esquerda {
   display: flex;
   align-items: center;
   gap: 16px;
+  border: 2px dashed blue;
 }
 
 .logo {
   width: 36px;
   height: 36px;
   flex-shrink: 0;
+  border: 2px dashed purple;
 }
 
 .logo img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  border: 1px dashed black;
 }
 
 .barra-busca {
   display: flex;
   align-items: center;
-  border: 1px solid #ddd;
+  border: 2px solid green;
   border-radius: 24px;
   overflow: hidden;
   height: 36px;
@@ -49,7 +54,7 @@ header {
 }
 
 .barra-busca input {
-  border: none;
+  border: 1px dashed #999;
   outline: none;
   padding: 0 14px;
   font-size: 13px;
@@ -60,7 +65,7 @@ header {
 
 .tag-busca {
   background: #f2f2f2;
-  border-left: 1px solid #ddd;
+  border-left: 2px dashed #999;
   padding: 0 12px;
   font-size: 12px;
   height: 100%;
@@ -75,7 +80,7 @@ header {
   width: 36px;
   height: 36px;
   background: #ea4c89;
-  border: none;
+  border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,16 +88,11 @@ header {
   flex-shrink: 0;
 }
 
-.btn-busca svg {
-  width: 16px;
-  height: 16px;
-  fill: #fff;
-}
-
 nav {
   display: flex;
   align-items: center;
   gap: 4px;
+  border: 2px dashed pink;
 }
 
 nav a {
@@ -104,22 +104,14 @@ nav a {
   display: flex;
   align-items: center;
   gap: 4px;
-}
-
-nav a:hover {
-  background: #f5f5f5;
-}
-
-nav a svg {
-  width: 12px;
-  height: 12px;
-  fill: #555;
+  border: 1px dashed #aaa;
 }
 
 .header-direita {
   display: flex;
   align-items: center;
   gap: 10px;
+  border: 2px dashed brown;
 }
 
 .btn-entrar {
@@ -127,14 +119,10 @@ nav a svg {
   font-weight: 500;
   padding: 7px 16px;
   background: transparent;
-  border: none;
+  border: 1px solid black;
   cursor: pointer;
   color: #333;
   border-radius: 8px;
-}
-
-.btn-entrar:hover {
-  background: #f5f5f5;
 }
 
 .btn-criar {
@@ -143,13 +131,9 @@ nav a svg {
   padding: 7px 18px;
   background: #1a1a1a;
   color: #fff;
-  border: none;
+  border: 2px solid black;
   border-radius: 24px;
   cursor: pointer;
-}
-
-.btn-criar:hover {
-  background: #333;
 }
 
 .barra-filtros {
@@ -159,18 +143,20 @@ nav a svg {
   padding: 10px 24px;
   border-bottom: 1px solid #e5e5e5;
   background: #fff;
+  border: 2px solid cyan;
 }
 
 .filtros-esquerda {
   display: flex;
   align-items: center;
+  border: 2px dashed gray;
 }
 
 .btn-popular {
   font-size: 13px;
   padding: 6px 14px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 2px solid black;
   border-radius: 24px;
   cursor: pointer;
   display: flex;
@@ -179,41 +165,26 @@ nav a svg {
   color: #333;
 }
 
-.btn-popular svg {
-  width: 12px;
-  height: 12px;
-  fill: #555;
-}
-
 .filtros-centro {
   display: flex;
   gap: 2px;
+  border: 2px dashed green;
 }
 
 .tag-filtro {
   font-size: 13px;
   padding: 6px 14px;
   border-radius: 24px;
-  border: none;
+  border: 1px dashed #aaa;
   cursor: pointer;
   color: #555;
   background: transparent;
 }
 
-.tag-filtro:hover {
-  background: #f5f5f5;
-  color: #222;
-}
-
-.tag-filtro.ativo {
-  background: #1a1a1a;
-  color: #fff;
-}
-
 .btn-filtros {
   font-size: 13px;
   padding: 6px 14px;
-  border: 1px solid #ddd;
+  border: 2px solid black;
   border-radius: 24px;
   background: #fff;
   cursor: pointer;
@@ -223,20 +194,16 @@ nav a svg {
   color: #333;
 }
 
-.btn-filtros svg {
-  width: 14px;
-  height: 14px;
-  fill: #555;
-}
-
 main {
   padding: 28px 24px;
+  border: 2px solid red;
 }
 
 .grade-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  border: 2px solid purple;
 }
 
 .card {
@@ -247,10 +214,7 @@ main {
   overflow: hidden;
   background: #fff;
   cursor: pointer;
-}
-
-.card:hover .card-imagem img {
-  transform: scale(1.03);
+  border: 2px solid orange;
 }
 
 .card-imagem {
@@ -259,6 +223,7 @@ main {
   background: #eee;
   overflow: hidden;
   border-radius: 12px;
+  border: 2px dashed blue;
 }
 
 .card-imagem img {
@@ -266,7 +231,7 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
+  border: 1px dashed #999;
 }
 
 .card-rodape {
@@ -274,12 +239,14 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 10px 4px 6px;
+  border: 2px dashed gray;
 }
 
 .autor {
   display: flex;
   align-items: center;
   gap: 8px;
+  border: 1px dashed black;
 }
 
 .avatar {
@@ -289,6 +256,7 @@ main {
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
+  border: 1px solid black;
 }
 
 .avatar img {
@@ -301,6 +269,7 @@ main {
   font-size: 12px;
   color: #333;
   font-weight: 500;
+  border: 1px dashed #aaa;
 }
 
 .badge {
@@ -311,10 +280,7 @@ main {
   padding: 1px 5px;
   border-radius: 3px;
   letter-spacing: 0.3px;
-}
-
-.badge.team {
-  background: #9b59b6;
+  border: 1px solid black;
 }
 
 .stats {
@@ -323,12 +289,14 @@ main {
   gap: 10px;
   font-size: 12px;
   color: #aaa;
+  border: 1px dashed #bbb;
 }
 
 .stat {
   display: flex;
   align-items: center;
   gap: 4px;
+  border: 1px dashed #ddd;
 }
 
 .stat svg {

@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #f5f5f5;
-  border: 3px solid red; /* corpo geral */
+  border: 3px solid red;
 }
 
 header {
